@@ -1,14 +1,18 @@
 /* 
-video 21 import, export desde la lista, varias maneras
+video 20 import, export
 
 
 */
 
 
-import heroes, {owners} from './data/heroes';
+import heroes from '../data/heroes';
 
+// usando filter() y map()
+const personaje = heroes.filter((x) => x.id === 2)
+const personajeName = personaje.map((z) => z.name);
 
-console.log(owners)
+console.log(personajeName);// -> Spiderman
+
 //console.log(heroes)
 
 

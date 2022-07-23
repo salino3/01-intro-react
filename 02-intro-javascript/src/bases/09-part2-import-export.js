@@ -5,7 +5,7 @@ video 21 import, export desde la lista, varias maneras
 */
 
 
-import heroes, {owners} from './data/heroes';
+import heroes, {owners} from '../data/heroes';
 
 
 console.log(owners)

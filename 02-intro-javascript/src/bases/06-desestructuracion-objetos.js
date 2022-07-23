@@ -2,6 +2,29 @@
  video 18 Desestructuración
 //* Asiñasción Desestructurante
 
+La sintaxis de desestructuración es una expresión de JavaScript que permite desempacar 
+valores de arreglos o propiedades de objetos en distintas variables.
+
+un ejemplo
+let a, b, rest;
+[a, b] = [10, 20];
+
+console.log(a);
+/// expected output: 10
+
+console.log(b);
+/// expected output: 20
+
+[a, b, ...rest] = [10, 25, 30, 40, 50];
+
+console.log(b);
+/// expected output: 25
+
+console.log(rest);
+/// expected output: Array [30,40,50]
+
+
+
 */
 
 const persona = {
